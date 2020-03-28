@@ -1,48 +1,48 @@
 # Hello World
 
-This is the source code of the traditional Hello World program.
+Ti es li code fontal del programma traditional Hello World.
 
 ```rust,editable
-// This is a comment, and is ignored by the compiler
-// You can test this code by clicking the "Run" button over there ->
-// or if you prefer to use your keyboard, you can use the "Ctrl + Enter" shortcut
+// Ti es un comenta, e es ignorat del compilator
+// Tu posse provar li code per cliccar sur li buton "Run" quel trova se ta ->
+// e si tu prefere usar li claviere, tu posse usar li acurtation "Ctrl + Enter"
 
-// This code is editable, feel free to hack it!
-// You can always return to the original code by clicking the "Reset" button ->
+// Ti-ci code es redactibil, tu posse hackar it si tu vole!
+// Un sol clic al buton "Reset" va retornar te al code original ->
 
-// This is the main function
+// Vi li function main
 fn main() {
-    // Statements here are executed when the compiled binary is called
+    // Instructiones (statements) ci es executet quande li binarie complilat es vocat
 
-    // Print text to the console
-    println!("Hello World!");
+    // Printar textu al console
+    println!("Salute munde!");
 }
 ```
 
-`println!` is a [*macro*][macros] that prints text to the
+`println!` es un [*macro*][macros] quel printa textu al
 console.
 
-A binary can be generated using the Rust compiler: `rustc`.
+On posse generar un binarie con li compilator Rust: `rustc`.
 
 ```bash
 $ rustc hello.rs
 ```
 
-`rustc` will produce a `hello` binary that can be executed.
+`rustc` va producter un binarie `hello` quel es executibil.
 
 ```bash
 $ ./hello
-Hello World!
+Salute munde!
 ```
 
-### Activity
+### Activitá
 
-Click 'Run' above to see the expected output. Next, add a new
-line with a second `println!` macro so that the output
-shows:
+Clicca 'Run' in supra por vider li surtida expectat. Poy, adjunte un nov
+linea con un duesim macro `println!` por que li surtida mey
+monstrar:
 
 ```text
-Hello World!
+Salute munde!
 I'm a Rustacean!
 ```
 
