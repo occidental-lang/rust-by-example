@@ -39,11 +39,11 @@ Salute munde!
 
 Clicca 'Run' in supra por vider li surtida expectat. Poy, adjunte un nov
 linea con un duesim macro `println!` por que li surtida mey
-monstrar:
+monstrar lu sequent:
 
 ```text
 Salute munde!
-I'm a Rustacean!
+Yo es un rustaceane!
 ```
 
 [macros]: macros.md
